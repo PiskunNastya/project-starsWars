@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+}
+
+#body {
+	min-width: 1407px;
+	background-color: black;
+}
+
+#firstPageOfTheSite {
+	height: 100vh;
+	background: url('../img/background2.jpg');
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.arrow {
+	height: 18px;
+    width: 84px;
+    margin: 6px;
+    position: relative;
+	}
+
+.arrow:before, 
+.arrow:after {
+    content: "";
+    height: 48%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    background: #fae287;
+}
+
+.arrow:before {
+	left: 0;
+	transform: skew(0deg, 10deg);
+}
+
+.arrow:after {
+	right: 0;
+	transform: skew(0deg, -10deg);
+}
+
+
+.noneDisplay {
+	display: none;
+}
+
+
+#buttonDown {
+    width: 53px;
+    height: 85px;
+}
+
+
